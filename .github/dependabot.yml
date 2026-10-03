@@ -1,0 +1,28 @@
+# Monthly dependency updates for every example that has a manifest.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directories:
+      - /openai
+      - /anthropic
+      - /media
+    schedule:
+      interval: monthly
+    groups:
+      python:
+        patterns: ["*"]
+
+  - package-ecosystem: npm
+    directories:
+      - /openai
+      - /anthropic
+    schedule:
+      interval: monthly
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]

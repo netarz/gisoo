@@ -1,0 +1,8 @@
+{
+  "name": "gisoo-openai-examples",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.70.0"
+  }
+}
