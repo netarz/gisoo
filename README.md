@@ -136,6 +136,8 @@ pip install -r openai/requirements.txt && python openai/chat.py
 [ai-api-examples](https://github.com/netarz/ai-api-examples) هستند؛ با گذاشتن `https://gisoo.pro/api/v1` به‌جای نشانی پایه،
 همان کدها با کلید گیسو کار می‌کنند.
 
+فهرست باز سرورهای MCP برای «فروشگاه MCP» اپ گیسو در مخزن [gisoo-mcp-registry](https://github.com/netarz/gisoo-mcp-registry) است؛ سرور تازه را با پول‌ریکوئست پیشنهاد دهید.
+
 **کلید را روی سرور خودتان نگه دارید**، در متغیر محیطی یا فایل `.env` ([نمونه](.env.example))، نه در کد سمت مرورگر یا
 اپ موبایل و نه در گیت.
 
@@ -202,6 +204,8 @@ business, career; AI, not licensed professionals), the writing ones hand back Wo
 More languages: [netarz/ai-api-examples](https://github.com/netarz/ai-api-examples) (set the base URL to
 `https://gisoo.pro/api/v1`). Docs: [gisoo.pro/docs][docs] · Claude Code guide: [gisoo.pro/docs/anthropic][anthropic] ·
 Video tutorials (Persian): [gisoo.pro/tutorials][tutorials].
+
+MCP store list for the Gisoo app: [netarz/gisoo-mcp-registry](https://github.com/netarz/gisoo-mcp-registry) (pull requests welcome).
 
 CI only checks syntax; it never calls the API. Security reports: `dev@netarz.ir` ([SECURITY.md](SECURITY.md)).
 Gisoo is not affiliated with OpenAI, Anthropic, Google or any other vendor named here. MIT licensed.
